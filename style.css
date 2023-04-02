@@ -1,0 +1,59 @@
+.fcontainer {
+    display: flex;
+    border: 2px solid grey;
+    height: 45vh;
+    /* flex-direction: row; */
+    /* default */
+    /* flex-direction: column; */
+    /* vertical */
+    /* flex-direction: row-reverse; */
+    /* right-hand side start */
+    /* flex-direction: column-reverse; */
+    /* starts with down to upward */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+    /* right side switch */
+    /* justify-content: flex-start; */
+    /* default*/
+    /* for left and right operation */
+    /* align-items: center; */
+    /* for vertical operation */
+    /* align-items: flex-end; */
+    /* same as justify-content but veritcal operation */
+    /* align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    /* responsive design */
+    /* flex-wrap: wrap-reverse; */
+    /* make responsive the upward */
+    /* flex-flow:column wrap ; */
+    /* we can pass the 2 values inside this property flex-direction and flex-wrap*/
+}
+
+.fitem {
+    background-color: red;
+    border: 2px solid black;
+    margin: 12px;
+    padding: 2px;
+    width: 122px;
+    height: 122px;
+}
+
+.item1 {
+    order: 3;
+    flex-grow: 3;
+    align-self: center;
+    /*only the itself will align center*/
+}
+
+.item2 {
+    flex-shrink: 2;
+    /* first 2 will shrink for responsive design*/
+}
+
+/* .item3 {} */
+
+.item4 {
+    order: 7;
+    flex-grow: 2;
+    /* we can increase the width*/
+}

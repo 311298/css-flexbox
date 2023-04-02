@@ -1,0 +1,31 @@
+froggy flex
+    justify-content -- horizontal axis
+    flex-start -- default
+    flex-end -- right most
+    center -- self-explainatory
+    space-around -- equal space between each thing even sides (similar to space-evenly)
+    space-between -- equal space between items and right and left sides taken
+
+    align-items
+    baseline -- basline of the container
+    stretch -- stretch to fit the container
+
+    flex-direction
+    row -- default (horizontal)
+    row-reverse -- starts with right side (opposite of row)
+    column -- make it block scope (veritally start top to bottom)
+    coloumn-reverse -- opposite of the column vertical in nature
+
+    flexbox items
+    order -- priortize the item and move to right most post to default (we can use the -ve number)
+    align-self -- get away with the group and folow own style
+
+    flex-wrap
+    nowrap -- fits in single line (default)
+    wrap -- fits in different lines in downward response design
+    wrap-reverse -- fits in different line but upward response design
+
+    flex-flow:flex-direction flex-wrap;
+
+    align-content -- determines the space between the lines
+    it has same value as flex-start flex-end space ... etc ..
